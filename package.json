@@ -1,0 +1,14 @@
+{
+    "name": "perplexity-search-mcp-v2",
+    "version": "1.0.0",
+    "description": "A simple MCP server for Perplexity web search",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.4.1",
+        "axios": "^1.6.0"
+    }
+}
